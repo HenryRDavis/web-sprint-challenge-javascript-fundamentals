@@ -95,4 +95,6 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
-
+const add = (a, b) => a + b;
+const multiply = (a, b) => a * b;
+const greeting = (a, b) => `Hello ${a} ${b}, nice to meet you!`;
